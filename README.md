@@ -1,5 +1,5 @@
 # Salesforce-Carrer-Hive
-Campus Career Portal / Placement Tracker (Education domain)
+Campus Career Portal / Placement Tracker 
 
 Phase 1: Problem Understanding & Industry Analysis
 
