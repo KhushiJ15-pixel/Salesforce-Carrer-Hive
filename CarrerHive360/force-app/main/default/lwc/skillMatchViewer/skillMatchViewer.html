@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Skill Match Details" icon-name="standard:skill">
+        <template if:true={hasData}>
+            <p class="slds-p-around_small">
+                <b>Match Score:</b> {application.Match_Score__c}
+            </p>
+            <p class="slds-p-around_small">
+                <b>Job Required Skills:</b> {application.Job__r.Required_Skills__c}
+            </p>
+            <p class="slds-p-around_small">
+                <b>Student Skills:</b> {application.Student__r.Skills__c}
+            </p>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error slds-p-around_small">
+                {error.body.message}
+            </p>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,16 @@
+.chip {
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 14px;
+}
+.chip-match {
+    background-color: #4caf50; /* Green for matched skills */
+    color: white;
+    font-weight: bold;
+}
+.chip-miss {
+    background-color: #e0e0e0; /* Grey for unmatched skills */
+    color: black;
+}
